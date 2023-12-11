@@ -20,10 +20,14 @@ import ThingsToDo from "../components/ThingsToDo";
 import NewsLetter from "../components/NewsLetter";
 import GoogleMaps from "../components/GoogleMaps";
 import Footer from "../components/Footer";
+import { Helmet } from "react-helmet";
 
 export default function Homepage() {
   return (
     <>
+      <Helmet>
+        <title>Nuuk Taal Botique Hotel in Laurel, Batangas</title>
+      </Helmet>
       <Navbar />
       <Flex
         gap={"2.7rem"}
