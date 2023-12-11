@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'HvDTrial Brandon Grotesque Thin';
+    src: url('./src/assets/fonts/HvDTrial_Brandon_Grotesque_thin.otf');
+}
+@font-face {
+    font-family: 'HvDTrial Brandon Grotesque Thin Italic';
+    src: url('./src/assets/fonts/HvDTrial_Brandon_Grotesque_thin_italic.otf');
+}
+@font-face {
+    font-family: 'HvDTrial Brandon Grotesque Reg';
+    src: url('./src/assets/fonts/HvDTrial_Brandon_Grotesque_regular.otf');
+}
+
+
+body{
+    font-family: 'HvDTrial Brandon Grotesque Thin';
+    font-weight: 100;
+}
