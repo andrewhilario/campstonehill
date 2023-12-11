@@ -1,14 +1,20 @@
 @font-face {
     font-family: 'HvDTrial Brandon Grotesque Thin';
-    src: url('./src/assets/fonts/HvDTrial_Brandon_Grotesque_thin.otf');
+    src: url('./src/assets/fonts/HvDTrial_Brandon_Grotesque_thin.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
     font-family: 'HvDTrial Brandon Grotesque Thin Italic';
-    src: url('./src/assets/fonts/HvDTrial_Brandon_Grotesque_thin_italic.otf');
+    src: url('./src/assets/fonts/HvDTrial_Brandon_Grotesque_thin_italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
     font-family: 'HvDTrial Brandon Grotesque Reg';
-    src: url('./src/assets/fonts/HvDTrial_Brandon_Grotesque_regular.otf');
+    src: url('./src/assets/fonts/HvDTrial_Brandon_Grotesque_regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
