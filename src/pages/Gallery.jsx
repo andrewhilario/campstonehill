@@ -7,6 +7,8 @@ import { MdChevronRight } from "react-icons/md";
 import ImageGallery from "react-image-gallery";
 import images from "../components/constants/images";
 import "react-image-gallery/styles/css/image-gallery.css";
+import GoogleMaps from "../components/GoogleMaps";
+import Footer from "../components/Footer";
 
 export default function Gallery() {
   const [loading, setLoading] = React.useState(true);
@@ -38,7 +40,6 @@ export default function Gallery() {
         background={"white"}
         // display={loading ? "flex" : "none"}
       ></Box>
-      <Text pt={"6rem"}>Gallery</Text>
       <Flex
         gap={"2.7rem"}
         flexDirection={"column"}
@@ -70,7 +71,7 @@ export default function Gallery() {
       </Flex>
       <Box>
         <Flex w="53%" m={"0 auto"} id="home">
-          <Box w={"100%"} marginTop={"5rem"}>
+          <Box w={"100%"} marginTop={"6rem"}>
             <Image
               src="https://static.wixstatic.com/media/b07087_b5621f5fa8154b4992f12b9c1fae56e0~mv2_d_1824_1824_s_2.jpg/v1/fill/w_191,h_192,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Grey%20Logo%20Transparent.jpg"
               alt="logo"
@@ -99,7 +100,7 @@ export default function Gallery() {
           </Button>
         </Flex>
       </Box>
-      <Box w={"53%"} m={"0 auto"} marginTop={"5rem"}>
+      <Box w={"53%"} m={"0 auto"} marginBottom={"5rem"}>
         <ImageGallery
           items={images}
           showNav
@@ -111,6 +112,9 @@ export default function Gallery() {
           lazyLoad
         />
       </Box>
+
+      <GoogleMaps />
+      <Footer />
     </>
   );
 }

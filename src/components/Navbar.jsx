@@ -5,7 +5,7 @@ import $ from "jquery";
 
 const Navbar = () => {
   return (
-    <Box background="#252322" pos={"fixed"} w={"100%"} zIndex={1}>
+    <Box background="#252322" pos={"fixed"} w={"100%"} zIndex={999}>
       <Flex
         m={"0 auto"}
         align={"center"}
