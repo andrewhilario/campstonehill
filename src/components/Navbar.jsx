@@ -56,6 +56,7 @@ const Navbar = () => {
             textDecoration: "none"
           }}
           onClick={(e) => {
+            window.location.href = "/#about";
             e.preventDefault();
             const element = document.getElementById("about");
             if (element) {
@@ -83,6 +84,7 @@ const Navbar = () => {
             textDecoration: "none"
           }}
           onClick={(e) => {
+            window.location.href = "/#hotel";
             e.preventDefault();
             const element = document.getElementById("hotel");
             if (element) {

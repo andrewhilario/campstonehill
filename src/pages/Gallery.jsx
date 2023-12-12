@@ -108,7 +108,6 @@ export default function Gallery() {
       <Box w={"53%"} m={"0 auto"} marginBottom={"5rem"}>
         <ImageGallery
           items={images}
-          showNav
           showThumbnails
           thumbnailPosition={"bottom"}
           showFullscreenButton={false}
@@ -145,6 +144,16 @@ export default function Gallery() {
                 disabled={disabled}
               />
             );
+          }}
+          onMouseOver={(e) => {
+            // add a gray opacity to the image
+            e.target.style.opacity = 0.5;
+            e.target.style.border = "none";
+          }}
+          onMouseLeave={(e) => {
+            // remove the opacity
+            e.target.style.opacity = 1;
+            e.target.style.border = "none";
           }}
         />
       </Box>
