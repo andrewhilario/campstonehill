@@ -17,8 +17,33 @@
     font-style: normal;
 }
 
+html{
+    scroll-behavior: smooth;
+    transition: all 1s ease-in-out;
+}
 
 body{
     font-family: 'HvDTrial Brandon Grotesque Thin';
     font-weight: 100;
 }
+
+@keyframes slowBlink {
+    0% {
+      opacity: .7;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: .7;
+    }
+  }
+  
+  .slow-blink {
+    animation: slowBlink 2s infinite;
+  }
+
+  .loaded{
+    opacity: 0;
+    display: none;
+  }

@@ -23,12 +23,38 @@ import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
 
 export default function Homepage() {
+  const [loading, setLoading] = React.useState(true);
+
+  React.useEffect(() => {
+    // Simulate loading delay (replace with your actual data fetching or other logic)
+    const delay = setTimeout(() => {
+      setLoading(false);
+    }, 700);
+
+    // Clear the timeout to prevent memory leaks
+    return () => clearTimeout(delay);
+  }, []);
   return (
     <>
       <Helmet>
         <title>Nuuk Taal Botique Hotel in Laurel, Batangas</title>
       </Helmet>
       <Navbar />
+      <Box
+        className={loading ? "slow-blink" : "loaded"}
+        minH="100vh"
+        w={"100%"}
+        justifyContent="center"
+        alignItems="center"
+        position={"fixed"}
+        zIndex={1}
+        top={0}
+        left={0}
+        right={0}
+        bottom={0}
+        background={"white"}
+        // display={loading ? "flex" : "none"}
+      ></Box>
       <Flex
         gap={"2.7rem"}
         flexDirection={"column"}
@@ -59,7 +85,7 @@ export default function Homepage() {
         </Link>
       </Flex>
       <Box>
-        <Flex w="53%" m={"0 auto"}>
+        <Flex w="53%" m={"0 auto"} id="home">
           <Box w={"100%"} marginTop={"5rem"}>
             <Image
               src="https://static.wixstatic.com/media/b07087_b5621f5fa8154b4992f12b9c1fae56e0~mv2_d_1824_1824_s_2.jpg/v1/fill/w_191,h_192,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Grey%20Logo%20Transparent.jpg"
@@ -97,8 +123,16 @@ export default function Homepage() {
           />
         </Flex>
       </Box>
+
       <Box marginTop={"2rem"}>
-        <Flex w="53%" m={"0 auto"} direction={"column"}>
+        <Flex
+          w="53%"
+          mx={"auto"}
+          marginTop={"5rem"}
+          marginBottom={"8rem"}
+          id="about"
+          direction={"column"}
+        >
           <Heading
             fontFamily={"HvDTrial Brandon Grotesque Thin"}
             fontSize={"25px"}
@@ -151,12 +185,14 @@ export default function Homepage() {
         </Flex>
         <ParallaxComponent />
         {/* The Hotel */}
-        <Box marginTop={"10rem"}>
+        <Box>
           <Text
+            id="hotel"
             fontFamily={"HvDTrial Brandon Grotesque Reg"}
             fontSize={"25px"}
             color={"#242323"}
             textAlign={"center"}
+            marginTop={"10rem"}
           >
             THE HOTEL
           </Text>

@@ -14,6 +14,7 @@ export default function Services() {
         textAlign={"center"}
         fontFamily={"HvDTrial Brandon Grotesque Reg"}
         fontSize={"2rem"}
+        id="services"
       >
         OUR SERVICES
       </Text>
