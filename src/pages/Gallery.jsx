@@ -9,6 +9,7 @@ import images from "../components/constants/images";
 import "react-image-gallery/styles/css/image-gallery.css";
 import GoogleMaps from "../components/GoogleMaps";
 import Footer from "../components/Footer";
+import { Helmet } from "react-helmet";
 
 export default function Gallery() {
   const [loading, setLoading] = React.useState(true);
@@ -24,6 +25,9 @@ export default function Gallery() {
   }, []);
   return (
     <>
+      <Helmet>
+        <title> GALLERY | Nuuk Taal Hotel</title>
+      </Helmet>
       <Navbar />
       <Box
         className={loading ? "slow-blink" : "loaded"}
