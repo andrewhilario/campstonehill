@@ -10,6 +10,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 import GoogleMaps from "../components/GoogleMaps";
 import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
+import { GoChevronRight, GoChevronLeft } from "react-icons/go";
 
 export default function Gallery() {
   const [loading, setLoading] = React.useState(true);
@@ -113,7 +114,38 @@ export default function Gallery() {
           showFullscreenButton={false}
           showPlayButton={false}
           thumbnailWidth={"100%"}
-          lazyLoad
+          renderRightNav={(onClick, disabled) => {
+            return (
+              <GoChevronRight
+                style={{
+                  color: "white",
+                  fontSize: "4rem",
+                  position: "absolute",
+                  right: "0%",
+                  top: "44%",
+                  zIndex: 1
+                }}
+                onClick={onClick}
+                disabled={disabled}
+              />
+            );
+          }}
+          renderLeftNav={(onClick, disabled) => {
+            return (
+              <GoChevronLeft
+                style={{
+                  color: "white",
+                  fontSize: "4rem",
+                  position: "absolute",
+                  left: "0%",
+                  top: "46%",
+                  zIndex: 1
+                }}
+                onClick={onClick}
+                disabled={disabled}
+              />
+            );
+          }}
         />
       </Box>
 
