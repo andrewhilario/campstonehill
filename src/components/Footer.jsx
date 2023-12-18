@@ -7,16 +7,17 @@ export default function Footer() {
       <Flex
         align={"center"}
         justify={"center"}
-        w={"65%"}
+        w={"70%"}
         m={"0 auto"}
         gap={"1rem"}
       >
         <Text color={"#ABABA9"} fontFamily={"Montserrat Variable"}>
-          reservations@nuuktaal.com
+          booking@campstonehill.ph
         </Text>
         <Text color={"#ABABA9"}>|</Text>
         <Text color={"#ABABA9"} fontFamily={"Montserrat Variable"}>
-          295 Talisay-Laurel Rd, Km 89, Barangay Berinayan, Laurel, Batangas
+          Haligyunan corner PPC Roads, Sitio Rumaguit, Brgy San Miguel, Baras,
+          Philippines
         </Text>
         <Text color={"#ABABA9"}>|</Text>
         <Flex align={"center"} justify={"center"} gap={"1rem"}>
@@ -25,14 +26,7 @@ export default function Footer() {
             fontFamily={"Montserrat Variable"}
             textDecoration={"underline"}
           >
-            +63(0)917 517 6885
-          </Text>
-          <Text
-            color={"#ABABA9"}
-            fontFamily={"Montserrat Variable"}
-            textDecoration={"underline"}
-          >
-            +63(0)960 375 5912
+            +63(0)98 988 9776
           </Text>
         </Flex>
       </Flex>
