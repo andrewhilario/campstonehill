@@ -7,7 +7,7 @@ export default function Footer() {
       <Flex
         align={"center"}
         justify={"center"}
-        w={"53%"}
+        w={"65%"}
         m={"0 auto"}
         gap={"1rem"}
       >
