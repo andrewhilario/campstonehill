@@ -21,6 +21,7 @@ import NewsLetter from "../components/NewsLetter";
 import GoogleMaps from "../components/GoogleMaps";
 import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
+import Logo from "../assets/images/campstonehilllogo.webp";
 
 export default function Homepage() {
   const [loading, setLoading] = React.useState(true);
@@ -37,7 +38,7 @@ export default function Homepage() {
   return (
     <>
       <Helmet>
-        <title>Nuuk Taal Botique Hotel in Laurel, Batangas</title>
+        <title>Camp Stone Hill</title>
       </Helmet>
       <Navbar />
       <Box
@@ -87,20 +88,14 @@ export default function Homepage() {
       <Box>
         <Flex w="53%" m={"0 auto"} id="home">
           <Box w={"100%"} marginTop={"5rem"}>
-            <Image
-              src="https://static.wixstatic.com/media/b07087_b5621f5fa8154b4992f12b9c1fae56e0~mv2_d_1824_1824_s_2.jpg/v1/fill/w_191,h_192,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Grey%20Logo%20Transparent.jpg"
-              alt="logo"
-              w="200px"
-              h="200px"
-              m={"0 auto"}
-            />
+            <Image src={Logo} alt="logo" w="300px" h="200px" m={"2rem auto"} />
           </Box>
-          <Button
+          {/* <Button
             marginTop={"7rem"}
             marginRight={"-10rem"}
             background="black"
             color="white"
-            fontFamily={"HvDTrial Brandon Grotesque Thin"}
+            fontFamily={"Montserrat Variable"}
             borderRadius={"0px"}
             p={"26px"}
             fontSize={"18px"}
@@ -112,7 +107,7 @@ export default function Homepage() {
             }}
           >
             BOOK NOW <MdChevronRight />
-          </Button>
+          </Button> */}
         </Flex>
       </Box>
       <Box>
@@ -134,7 +129,7 @@ export default function Homepage() {
           direction={"column"}
         >
           <Heading
-            fontFamily={"HvDTrial Brandon Grotesque Thin"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"25px"}
             color={"#242323"}
             marginTop={"12rem"}
@@ -143,7 +138,7 @@ export default function Homepage() {
             OUR STORY
           </Heading>
           <Text
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"18px"}
             color={"#242323"}
             marginTop={"3rem"}
@@ -158,7 +153,7 @@ export default function Homepage() {
             own.
           </Text>
           <Text
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"18px"}
             color={"#242323"}
             marginTop={"3rem"}
@@ -171,7 +166,7 @@ export default function Homepage() {
             the property's interiors reflect its rich history and personality.
           </Text>
           <Text
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"18px"}
             color={"#242323"}
             marginTop={"3rem"}
@@ -188,7 +183,7 @@ export default function Homepage() {
         <Box>
           <Text
             id="hotel"
-            fontFamily={"HvDTrial Brandon Grotesque Reg"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"25px"}
             color={"#242323"}
             textAlign={"center"}
@@ -205,7 +200,7 @@ export default function Homepage() {
           <Text
             marginTop={"10rem"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"18px"}
             w={"50%"}
             m={"0 auto"}
@@ -216,7 +211,7 @@ export default function Homepage() {
           </Text>
           <Text
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"24px"}
             marginTop={"3rem"}
           >
@@ -226,7 +221,7 @@ export default function Homepage() {
             w={"50%"}
             m={"0 auto"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"18px"}
           >
             Archways clad in bricks and vintage hardwoods throughout the villa's
@@ -237,7 +232,7 @@ export default function Homepage() {
           </Text>
           <Text
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"24px"}
             marginTop={"3rem"}
           >
@@ -247,7 +242,7 @@ export default function Homepage() {
             w={"50%"}
             m={"0 auto"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"18px"}
           >
             The Lakehus is a separate building housing Ilulli's al-fresco dining
@@ -256,7 +251,7 @@ export default function Homepage() {
           </Text>
           <Text
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"24px"}
             marginTop={"3rem"}
           >
@@ -267,39 +262,24 @@ export default function Homepage() {
               w={"50%"}
               m={"0 auto"}
               textAlign={"center"}
-              fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+              fontFamily={"Montserrat Variable"}
               fontSize={"14px"}
             >
               Eight (8) suites
             </Text>
-            <Text
-              fontFamily={"HvDTrial Brandon Grotesque Thin"}
-              fontSize={"12px"}
-            >
+            <Text fontFamily={"Montserrat Variable"} fontSize={"12px"}>
               Maximum capacity of 39 overnight guests
             </Text>
-            <Text
-              fontFamily={"HvDTrial Brandon Grotesque Thin"}
-              fontSize={"12px"}
-            >
+            <Text fontFamily={"Montserrat Variable"} fontSize={"12px"}>
               Fully air-conditioned
             </Text>
-            <Text
-              fontFamily={"HvDTrial Brandon Grotesque Thin"}
-              fontSize={"12px"}
-            >
+            <Text fontFamily={"Montserrat Variable"} fontSize={"12px"}>
               Wheel Chair Access
             </Text>
-            <Text
-              fontFamily={"HvDTrial Brandon Grotesque Thin"}
-              fontSize={"12px"}
-            >
+            <Text fontFamily={"Montserrat Variable"} fontSize={"12px"}>
               Infinity Swimming Pool
             </Text>
-            <Text
-              fontFamily={"HvDTrial Brandon Grotesque Thin"}
-              fontSize={"12px"}
-            >
+            <Text fontFamily={"Montserrat Variable"} fontSize={"12px"}>
               Beach access
             </Text>
           </Flex>

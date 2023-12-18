@@ -11,8 +11,9 @@ import GoogleMaps from "../components/GoogleMaps";
 import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
 import { GoChevronRight, GoChevronLeft } from "react-icons/go";
+import Logo from "../assets/images/campstonehilllogo.webp";
 
-export default function Gallery() {
+export default function Activities() {
   const [loading, setLoading] = React.useState(true);
 
   React.useEffect(() => {
@@ -27,7 +28,7 @@ export default function Gallery() {
   return (
     <>
       <Helmet>
-        <title> GALLERY | Nuuk Taal Hotel</title>
+        <title> Activities | Camp Stone Hill</title>
       </Helmet>
       <Navbar />
       <Box
@@ -77,15 +78,9 @@ export default function Gallery() {
       <Box>
         <Flex w="53%" m={"0 auto"} id="home">
           <Box w={"100%"} marginTop={"6rem"}>
-            <Image
-              src="https://static.wixstatic.com/media/b07087_b5621f5fa8154b4992f12b9c1fae56e0~mv2_d_1824_1824_s_2.jpg/v1/fill/w_191,h_192,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Grey%20Logo%20Transparent.jpg"
-              alt="logo"
-              w="200px"
-              h="200px"
-              m={"0 auto"}
-            />
+            <Image src={Logo} alt="logo" w="300px" h="200px" m={"2rem auto"} />
           </Box>
-          <Button
+          {/* <Button
             marginTop={"7rem"}
             marginRight={"-10rem"}
             background="black"
@@ -102,7 +97,7 @@ export default function Gallery() {
             }}
           >
             BOOK NOW <MdChevronRight />
-          </Button>
+          </Button> */}
         </Flex>
       </Box>
       <Box w={"53%"} m={"0 auto"} marginBottom={"5rem"}>

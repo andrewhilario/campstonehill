@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from "../pages/Homepage";
-import Gallery from "../pages/Gallery";
-import Ilulli from "../pages/Ilulli";
+import Activities from "../pages/Activities";
+import Rooms from "../pages/Rooms";
 import Events from "../pages/Events";
 import Contact from "../pages/Contact";
 import Careers from "../pages/Careers";
@@ -13,13 +13,13 @@ export default function Router() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/ilulli" element={<Ilulli />} />
+        <Route path="/activities" element={<Activities />} />
+        <Route path="/rooms" element={<Rooms />} />
         <Route path="/events" element={<Events />} />
-        <Route path="/info" element={<Info />} />
+        {/* <Route path="/info" element={<Info />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/careers" element={<Careers />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog" element={<Blog />} /> */}
       </Routes>
     </BrowserRouter>
   );

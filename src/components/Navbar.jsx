@@ -11,7 +11,7 @@ const Navbar = () => {
         align={"center"}
         justify={"space-between"}
         padding={"1rem"}
-        w={"53%"}
+        w={"25%"}
       >
         <Link
           href="/"
@@ -21,7 +21,7 @@ const Navbar = () => {
           fontSize={"14px"}
           fontWeight={"normal"}
           padding={"0.8rem"}
-          fontFamily={"HvDTrial Brandon Grotesque Thin"}
+          fontFamily={"Montserrat Variable"}
           _hover={{
             color: "#ABABA9",
             textDecoration: "none"
@@ -43,14 +43,14 @@ const Navbar = () => {
         >
           Home
         </Link>
-        <Link
+        {/* <Link
           href="/#about"
           color={"white"}
           textDecoration={"none"}
           textTransform={"uppercase"}
           fontSize={"14px"}
           padding={"0.8rem"}
-          fontFamily={"HvDTrial Brandon Grotesque Thin"}
+          fontFamily={"Montserrat Variable"}
           _hover={{
             color: "#ABABA9",
             textDecoration: "none"
@@ -78,7 +78,7 @@ const Navbar = () => {
           textTransform={"uppercase"}
           fontSize={"14px"}
           padding={"0.8rem"}
-          fontFamily={"HvDTrial Brandon Grotesque Thin"}
+          fontFamily={"Montserrat Variable"}
           _hover={{
             color: "#ABABA9",
             textDecoration: "none"
@@ -106,7 +106,7 @@ const Navbar = () => {
           textTransform={"uppercase"}
           fontSize={"14px"}
           padding={"0.8rem"}
-          fontFamily={"HvDTrial Brandon Grotesque Thin"}
+          fontFamily={"Montserrat Variable"}
           _hover={{
             color: "#ABABA9",
             textDecoration: "none"
@@ -127,36 +127,36 @@ const Navbar = () => {
           }}
         >
           Services
-        </Link>
+        </Link> */}
         <Link
-          href="/gallery"
+          href="/activities"
           color={"white"}
           textDecoration={"none"}
           textTransform={"uppercase"}
           fontSize={"14px"}
           padding={"0.8rem"}
-          fontFamily={"HvDTrial Brandon Grotesque Thin"}
+          fontFamily={"Montserrat Variable"}
           _hover={{
             color: "#ABABA9",
             textDecoration: "none"
           }}
         >
-          Gallery
+          Activities
         </Link>
         <Link
-          href="/ilulli"
+          href="/rooms"
           color={"white"}
           textDecoration={"none"}
           textTransform={"uppercase"}
           fontSize={"14px"}
           padding={"0.8rem"}
-          fontFamily={"HvDTrial Brandon Grotesque Thin"}
+          fontFamily={"Montserrat Variable"}
           _hover={{
             color: "#ABABA9",
             textDecoration: "none"
           }}
         >
-          Ilulli Restaurant
+          Rooms
         </Link>
         <Link
           href="/events"
@@ -165,7 +165,7 @@ const Navbar = () => {
           textTransform={"uppercase"}
           fontSize={"14px"}
           padding={"0.8rem"}
-          fontFamily={"HvDTrial Brandon Grotesque Thin"}
+          fontFamily={"Montserrat Variable"}
           _hover={{
             color: "#ABABA9",
             textDecoration: "none"
@@ -173,14 +173,14 @@ const Navbar = () => {
         >
           Events
         </Link>
-        <Link
+        {/* <Link
           href="/info"
           color={"white"}
           textDecoration={"none"}
           textTransform={"uppercase"}
           fontSize={"14px"}
           padding={"0.8rem"}
-          fontFamily={"HvDTrial Brandon Grotesque Thin"}
+          fontFamily={"Montserrat Variable"}
           _hover={{
             color: "#ABABA9",
             textDecoration: "none"
@@ -195,7 +195,7 @@ const Navbar = () => {
           textTransform={"uppercase"}
           fontSize={"14px"}
           padding={"0.8rem"}
-          fontFamily={"HvDTrial Brandon Grotesque Thin"}
+          fontFamily={"Montserrat Variable"}
           _hover={{
             color: "#ABABA9",
             textDecoration: "none"
@@ -210,7 +210,7 @@ const Navbar = () => {
           textTransform={"uppercase"}
           fontSize={"14px"}
           padding={"0.8rem"}
-          fontFamily={"HvDTrial Brandon Grotesque Thin"}
+          fontFamily={"Montserrat Variable"}
           _hover={{
             color: "#ABABA9",
             textDecoration: "none"
@@ -225,14 +225,14 @@ const Navbar = () => {
           textTransform={"uppercase"}
           fontSize={"14px"}
           padding={"0.8rem"}
-          fontFamily={"HvDTrial Brandon Grotesque Thin"}
+          fontFamily={"Montserrat Variable"}
           _hover={{
             color: "#ABABA9",
             textDecoration: "none"
           }}
         >
           Blog
-        </Link>
+        </Link> */}
       </Flex>
     </Box>
   );

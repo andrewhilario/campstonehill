@@ -12,8 +12,8 @@ export const dividerTheme = defineStyleConfig({
 
 const theme = extendTheme({
   fonts: {
-    // heading: `'Brandon Grot W01 Regular'`,
-    body: `'Brandon Grot W01 Regular', sans-serif`
+    heading: `'Plus Jakarta Sans', sans-serif`,
+    body: `'Plus Jakarta Sans', sans-serif`
   },
   components: {
     Divider: dividerTheme

@@ -52,14 +52,14 @@ const ParallaxComponent = () => {
         w={"23%"}
         textAlign={"center"}
       >
-        <Text fontFamily={"HvDTrial Brandon Grotesque Thin"} fontSize={"24px"}>
+        <Text fontFamily={"Montserrat Variable"} fontSize={"24px"}>
           OUR PLACE
         </Text>
 
         <Text
-          fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+          fontFamily={"Montserrat Variable"}
           marginTop={"1rem"}
-          color={"#ABABA9"}
+          color={"#9a9a9a"}
         >
           Nuuk is set within an idyllic 4-hectare lakeside country estate in
           Laurel, Batangas, with 130 meters of private shoreline.
@@ -70,7 +70,7 @@ const ParallaxComponent = () => {
           bg="white"
           boxShadow="inset 0 0 0 1px black"
           p={"26px"}
-          fontFamily={"HvDTrial Brandon Grotesque Thin"}
+          fontFamily={"Montserrat Variable"}
           borderRadius={"0px"}
           fontSize={"14px"}
           _hover={{

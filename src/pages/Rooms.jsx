@@ -2,11 +2,11 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import { Text } from "@chakra-ui/react";
 
-export default function Ilulli() {
+export default function Rooms() {
   return (
     <>
       <Navbar />
-      <Text pt={"6rem"}>Ilulli Restaurant</Text>
+      <Text pt={"6rem"}>Rooms</Text>
     </>
   );
 }
