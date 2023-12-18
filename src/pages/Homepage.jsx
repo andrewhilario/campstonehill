@@ -68,6 +68,7 @@ export default function Homepage() {
           _hover={{
             textDecoration: "none"
           }}
+          href="https://www.facebook.com/campstonehill"
         >
           <FaFacebookF
             style={{

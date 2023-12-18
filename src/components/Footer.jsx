@@ -41,7 +41,7 @@ export default function Footer() {
         fontFamily={"Montserrat Variable"}
         textAlign={"center"}
       >
-        © 2023 by Nuuk Taal Lake
+        © 2023 by Camp Stone Hill
       </Text>
     </Box>
   );
