@@ -202,6 +202,7 @@ export default function Homepage() {
             textAlign={"center"}
             fontFamily={"Montserrat Variable"}
             fontSize={"18px"}
+            fontWeight={"light"}
             w={"50%"}
             m={"0 auto"}
           >
@@ -223,6 +224,7 @@ export default function Homepage() {
             textAlign={"center"}
             fontFamily={"Montserrat Variable"}
             fontSize={"18px"}
+            fontWeight={"light"}
           >
             Archways clad in bricks and vintage hardwoods throughout the villa's
             architecturally unique interior juxtapose rustic grandeur with a
@@ -244,6 +246,7 @@ export default function Homepage() {
             textAlign={"center"}
             fontFamily={"Montserrat Variable"}
             fontSize={"18px"}
+            fontWeight={"light"}
           >
             The Lakehus is a separate building housing Ilulli's al-fresco dining
             space and three of our guest suites with a contemporary feel.

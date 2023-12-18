@@ -11,25 +11,25 @@ export default function Footer() {
         m={"0 auto"}
         gap={"1rem"}
       >
-        <Text color={"#ABABA9"} fontFamily={"HvDTrial Brandon Grotesque Thin"}>
+        <Text color={"#ABABA9"} fontFamily={"Montserrat Variable"}>
           reservations@nuuktaal.com
         </Text>
         <Text color={"#ABABA9"}>|</Text>
-        <Text color={"#ABABA9"} fontFamily={"HvDTrial Brandon Grotesque Thin"}>
+        <Text color={"#ABABA9"} fontFamily={"Montserrat Variable"}>
           295 Talisay-Laurel Rd, Km 89, Barangay Berinayan, Laurel, Batangas
         </Text>
         <Text color={"#ABABA9"}>|</Text>
         <Flex align={"center"} justify={"center"} gap={"1rem"}>
           <Text
             color={"#ABABA9"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin"}
+            fontFamily={"Montserrat Variable"}
             textDecoration={"underline"}
           >
             +63(0)917 517 6885
           </Text>
           <Text
             color={"#ABABA9"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin"}
+            fontFamily={"Montserrat Variable"}
             textDecoration={"underline"}
           >
             +63(0)960 375 5912
@@ -38,7 +38,7 @@ export default function Footer() {
       </Flex>
       <Text
         color={"white"}
-        fontFamily={"HvDTrial Brandon Grotesque Thin"}
+        fontFamily={"Montserrat Variable"}
         textAlign={"center"}
       >
         © 2023 by Nuuk Taal Lake

@@ -10,7 +10,7 @@ export default function ThingsToDo() {
           <Text
             marginTop={"2.4rem"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Reg"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"1.2rem"}
           >
             Lakefront Strolls
@@ -20,7 +20,8 @@ export default function ThingsToDo() {
             marginTop={"1.2rem"}
             mx={"auto"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
+            fontWeight={"light"}
           >
             Discover the natural beauty of our surroundings by taking a walk or
             wading along our shores. Many birds like herons, egrets, and
@@ -32,7 +33,7 @@ export default function ThingsToDo() {
           <Text
             marginTop={"2.4rem"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Reg"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"1.2rem"}
           >
             Leisure Activities
@@ -42,7 +43,8 @@ export default function ThingsToDo() {
             marginTop={"1.2rem"}
             mx={"auto"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
+            fontWeight={"light"}
           >
             Take a dip in our infinity pool, relax in one of our nooks nestled
             in the gardens or the beach, play some cards at our lobby lounge,
@@ -56,7 +58,7 @@ export default function ThingsToDo() {
           <Text
             marginTop={"2.4rem"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Reg"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"1.2rem"}
             color={"white"}
           >
@@ -67,8 +69,9 @@ export default function ThingsToDo() {
             marginTop={"1.2rem"}
             mx={"auto"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
             color={"white"}
+            fontWeight={"light"}
           >
             Taal Lake is well known for its beauty, mysteriousness and rich
             history. The breathtaking backdrop of mountains, calm water and the
@@ -82,7 +85,7 @@ export default function ThingsToDo() {
           <Text
             marginTop={"2.4rem"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Reg"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"1.2rem"}
           >
             Kids' Activities
@@ -92,7 +95,8 @@ export default function ThingsToDo() {
             marginTop={"1.2rem"}
             mx={"auto"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
+            fontWeight={"light"}
           >
             We are proud to be a family-friendly hotel. We have kiddie fishing,
             board games, Smart TVs with Netflix, garden sports such as badminton
@@ -103,7 +107,7 @@ export default function ThingsToDo() {
           bg="#A1A09E"
           color={"white"}
           padding={"1rem"}
-          fontFamily={"HvDTrial Brandon Grotesque Thin"}
+          fontFamily={"Montserrat Variable"}
           borderRadius={"0px"}
           fontSize={"16px"}
           _hover={{
@@ -123,7 +127,7 @@ export default function ThingsToDo() {
           <Text
             marginTop={"2.4rem"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Reg"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"1.2rem"}
           >
             Tagaytay Ridge
@@ -133,7 +137,8 @@ export default function ThingsToDo() {
             marginTop={"1.2rem"}
             mx={"auto"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
+            fontWeight={"light"}
           >
             Our hotel is only 25 minutes from the popular Tagaytay mountain
             ridge, which offers a birds-eye panoramic view of Taal Lake and
@@ -144,7 +149,7 @@ export default function ThingsToDo() {
           <Text
             marginTop={"2.4rem"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Reg"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"1.2rem"}
           >
             Adventure Activities
@@ -154,7 +159,8 @@ export default function ThingsToDo() {
             marginTop={"1.2rem"}
             mx={"auto"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
+            fontWeight={"light"}
           >
             Bring your mountain bikes and explore the roads surrounding the
             lake. After the 2020 eruption, the views of the changed landscape of

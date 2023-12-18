@@ -14,14 +14,14 @@ export default function NewsLetter() {
         <Text
           color={"white"}
           fontSize={"2rem"}
-          fontFamily={"HvDTrial Brandon Grotesque Reg"}
+          fontFamily={"Montserrat Variable"}
         >
           Join the Nuuk Taal Community
         </Text>
         <Text
           color={"white"}
           fontSize={"18px"}
-          fontFamily={"HvDTrial Brandon Grotesque Reg"}
+          fontFamily={"Montserrat Variable"}
         >
           Join our email list and get access to our newsletters with our blog
           posts, specials deals exclusive to our subscribers.
@@ -30,7 +30,7 @@ export default function NewsLetter() {
         <Box w={"100%"} marginTop={"1rem"}>
           <FormLabel
             htmlFor="email"
-            fontFamily={"HvDTrial Brandon Grotesque Thin"}
+            fontFamily={"Montserrat Variable"}
             color={"white"}
           >
             Enter your email here *
@@ -56,7 +56,7 @@ export default function NewsLetter() {
               bg="#A1A09E"
               color={"white"}
               padding={"1rem"}
-              fontFamily={"HvDTrial Brandon Grotesque Thin"}
+              fontFamily={"Montserrat Variable"}
               borderRadius={"0px"}
               fontSize={"16px"}
               _hover={{

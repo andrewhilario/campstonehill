@@ -12,7 +12,7 @@ export default function Services() {
     <Box w="100%" marginTop={"4rem"}>
       <Text
         textAlign={"center"}
-        fontFamily={"HvDTrial Brandon Grotesque Reg"}
+        fontFamily={"Montserrat Variable"}
         fontSize={"2rem"}
         id="services"
       >
@@ -23,7 +23,7 @@ export default function Services() {
           <Image src={Dining} alt="dining" w={"50px"} h={"50px"} m={"0 auto"} />
           <Text
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Reg"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"1.2rem"}
           >
             Dining
@@ -32,7 +32,8 @@ export default function Services() {
             width={"80%"}
             m={"0 auto"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
+            fontWeight={"light"}
           >
             We offer complimentary breakfast. We are also open for lunch,
             merienda and dinner, exculsively for our checked-in guests, at
@@ -44,7 +45,7 @@ export default function Services() {
           <Image src={Garden} alt="dining" w={"50px"} h={"50px"} m={"0 auto"} />
           <Text
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Reg"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"1.2rem"}
           >
             Gardens & Nooks
@@ -53,7 +54,8 @@ export default function Services() {
             width={"80%"}
             m={"0 auto"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
+            fontWeight={"light"}
           >
             Our guests have access to our lakeview gardens, private beachfront
             and privacy nooks dotted around the grounds
@@ -63,7 +65,7 @@ export default function Services() {
           <Image src={Pool} alt="dining" w={"50px"} h={"50px"} m={"0 auto"} />
           <Text
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Reg"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"1.2rem"}
           >
             Infinity Pool
@@ -72,7 +74,8 @@ export default function Services() {
             width={"80%"}
             m={"0 auto"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
+            fontWeight={"light"}
           >
             Take a dip in our pool that visually extends into the depths of the
             lake
@@ -90,7 +93,7 @@ export default function Services() {
           <Image src={Wifi} alt="dining" w={"50px"} h={"50px"} m={"0 auto"} />
           <Text
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Reg"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"1.2rem"}
           >
             Free Wifi
@@ -99,7 +102,8 @@ export default function Services() {
             width={"80%"}
             m={"0 auto"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
+            fontWeight={"light"}
           >
             Enjoy complimentary fiber internet access in all guest rooms and
             public spaces.
@@ -109,7 +113,7 @@ export default function Services() {
         <Box w={"33%"}>
           <Text
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Reg"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"1.2rem"}
           >
             Exclusive Hotel Hire
@@ -118,7 +122,8 @@ export default function Services() {
             width={"80%"}
             m={"0 auto"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
+            fontWeight={"light"}
           >
             Open for exclusive hire as a luxury villa retreat, guests can enjoy
             over 1,500 sqm of living space, along with an exclusive dining
@@ -137,7 +142,7 @@ export default function Services() {
           />
           <Text
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Reg"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"1.2rem"}
           >
             Daily Housekeeping
@@ -146,7 +151,8 @@ export default function Services() {
             width={"80%"}
             m={"0 auto"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
+            fontWeight={"light"}
           >
             Have a comfortable stay in a crisp and clean environment
           </Text>
@@ -164,7 +170,7 @@ export default function Services() {
         <Box w={"50%"} m={"0 auto"}>
           <Text
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Reg"}
+            fontFamily={"Montserrat Variable"}
             fontSize={"1.2rem"}
           >
             Events
@@ -173,7 +179,8 @@ export default function Services() {
             width={"80%"}
             m={"0 auto"}
             textAlign={"center"}
-            fontFamily={"HvDTrial Brandon Grotesque Thin Italic"}
+            fontFamily={"Montserrat Variable"}
+            fontWeight={"light"}
           >
             We can hold private celebrations, such as weddings, birthdays, and
             anniversaries. We also accept private group dining and corporate
@@ -186,7 +193,7 @@ export default function Services() {
           bg="#A1A09E"
           color={"white"}
           padding={"1rem"}
-          fontFamily={"HvDTrial Brandon Grotesque Thin"}
+          fontFamily={"Montserrat Variable"}
           borderRadius={"0px"}
           fontSize={"16px"}
           _hover={{
