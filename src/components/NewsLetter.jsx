@@ -28,7 +28,7 @@ export default function NewsLetter() {
           fontSize={"2rem"}
           fontFamily={"Montserrat Variable"}
         >
-          Join the Nuuk Taal Community
+          Join the Camp Stone Hill Community
         </Text>
         <Text
           color={"white"}
