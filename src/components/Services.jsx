@@ -19,6 +19,7 @@ export default function Services() {
         OUR SERVICES
       </Text>
       <Flex
+        align={"center"}
         justify={{
           base: "center",
           md: "space-between",
@@ -29,7 +30,8 @@ export default function Services() {
           md: "80%",
           lg: "53%"
         }}
-        m={"0"}
+        m={"0 auto"}
+        marginTop={"1rem"}
         direction={{
           base: "column",
           md: "row",
