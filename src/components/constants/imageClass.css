@@ -1,0 +1,19 @@
+.original-image{
+    scale: 2;
+}
+
+
+@media (max-width: 768px) {
+    .original-image{
+        scale: 1;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .original-image{
+        scale: 1.5;
+    }
+}
+
+

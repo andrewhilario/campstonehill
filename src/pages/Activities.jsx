@@ -132,8 +132,8 @@ export default function Activities() {
       <Box
         w={{
           base: "100%",
-          md: "80%",
-          lg: "53%"
+          md: "100%",
+          lg: "100%"
         }}
         m={"0 auto"}
         marginBottom={"5rem"}
@@ -144,8 +144,9 @@ export default function Activities() {
           thumbnailPosition={"bottom"}
           showFullscreenButton={false}
           showPlayButton={false}
+          showNav={true}
           thumbnailWidth={"100%"}
-          thumbnailHeight={"500px"}
+          thumbnailHeight={"600px"}
           renderRightNav={(onClick, disabled) => {
             return (
               <GoChevronRight
@@ -180,13 +181,19 @@ export default function Activities() {
           }}
           onMouseOver={(e) => {
             // add a gray opacity to the image
-            e.target.style.opacity = 0.5;
+            // e.target.style.opacity = 0.5;
             e.target.style.border = "none";
+            e.target.style.cursor = "pointer";
+            e.target.style.transition = "all 0.5s ease-in-out";
+            e.target.style.scale = "1";
           }}
           onMouseLeave={(e) => {
             // remove the opacity
-            e.target.style.opacity = 1;
+            // e.target.style.opacity = 1;
             e.target.style.border = "none";
+            e.target.style.cursor = "pointer";
+            e.target.style.transition = "all 0.5s ease-in-out";
+            e.target.style.scale = "1.1";
           }}
         />
       </Box>
