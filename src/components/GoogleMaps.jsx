@@ -45,30 +45,38 @@ export default function GoogleMaps() {
   }, []);
 
   return isLoaded ? (
-    <GoogleMap
-      mapContainerStyle={containerStyle}
-      center={marker}
-      options={{
-        styles: grayscaleMapStyle
+    <Box
+      w={{
+        base: "100%",
+        md: "100%",
+        lg: "100%"
       }}
-      zoom={11}
-      //   onLoad={onLoad}
-      onUnmount={onUnmount}
     >
-      <Marker position={marker} title="Marker Title">
-        {/* You can customize the content inside the marker if needed */}
-        <Box
-          bg="white"
-          color="black"
-          p={2}
-          borderRadius="md"
-          boxShadow="md"
-          textAlign="center"
-        >
-          Nuuk Taal
-        </Box>
-      </Marker>
-    </GoogleMap>
+      <GoogleMap
+        mapContainerStyle={containerStyle}
+        center={marker}
+        options={{
+          styles: grayscaleMapStyle
+        }}
+        zoom={11}
+        //   onLoad={onLoad}
+        onUnmount={onUnmount}
+      >
+        <Marker position={marker} title="Marker Title">
+          {/* You can customize the content inside the marker if needed */}
+          <Box
+            bg="white"
+            color="black"
+            p={2}
+            borderRadius="md"
+            boxShadow="md"
+            textAlign="center"
+          >
+            Nuuk Taal
+          </Box>
+        </Marker>
+      </GoogleMap>
+    </Box>
   ) : (
     <></>
   );

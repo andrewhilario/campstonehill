@@ -4,8 +4,37 @@ import React from "react";
 
 export default function ThingsToDo() {
   return (
-    <Flex justify={"space-between"} w={"53%"} m={"0 auto"}>
-      <Flex w="33%" direction={"column"}>
+    <Flex
+      justify={{
+        base: "center",
+        md: "space-between",
+        lg: "space-between"
+      }}
+      w={{
+        base: "100%",
+        md: "65%",
+        lg: "53%"
+      }}
+      m={"0 auto"}
+      direction={{
+        base: "column",
+        md: "row",
+        lg: "row"
+      }}
+    >
+      <Flex
+        w={{
+          base: "100%",
+          md: "90%",
+          lg: "33%"
+        }}
+        direction={"column"}
+        marginBottom={{
+          base: "2rem",
+          md: 0,
+          lg: 0
+        }}
+      >
         <Box>
           <Text
             marginTop={"2.4rem"}
@@ -53,7 +82,19 @@ export default function ThingsToDo() {
           </Text>
         </Box>
       </Flex>
-      <Flex w="33%" direction={"column"}>
+      <Flex
+        w={{
+          base: "100%",
+          md: "90%",
+          lg: "33%"
+        }}
+        direction={"column"}
+        marginTop={{
+          base: "2rem",
+          md: 0,
+          lg: 0
+        }}
+      >
         <Box padding={"3rem 1.4rem"} bg="#737373">
           <Text
             marginTop={"2.4rem"}
@@ -122,7 +163,14 @@ export default function ThingsToDo() {
           Menu of Services
         </Button>
       </Flex>
-      <Flex w="33%" direction={"column"}>
+      <Flex
+        w={{
+          base: "100%",
+          md: "90%",
+          lg: "33%"
+        }}
+        direction={"column"}
+      >
         <Box>
           <Text
             marginTop={"2.4rem"}

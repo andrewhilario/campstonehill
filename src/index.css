@@ -1,11 +1,16 @@
 html{
     scroll-behavior: smooth;
     transition: all 1s ease-in-out;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 body{
   font-family: 'Montserrat Variable';
+  overflow-x: hidden;
+  width: 100%;
 }
+
 
 @keyframes slowBlink {
     0% {

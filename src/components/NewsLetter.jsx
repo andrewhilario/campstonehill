@@ -3,11 +3,23 @@ import React from "react";
 
 export default function NewsLetter() {
   return (
-    <Box bg={"#583102"} mt={"2rem"}>
+    <Box
+      bg={"#583102"}
+      mt={"2rem"}
+      w={{
+        base: "100%",
+        md: "100%",
+        lg: "100%"
+      }}
+    >
       <Flex
         direction={"column"}
         align={"center"}
-        w="53%"
+        w={{
+          base: "100%",
+          md: "65%",
+          lg: "53%"
+        }}
         m={"0 auto"}
         p={"2rem"}
       >

@@ -5,13 +5,29 @@ import $ from "jquery";
 
 const Navbar = () => {
   return (
-    <Box background="#bd6a05" pos={"fixed"} w={"100%"} zIndex={999}>
+    <Box
+      background="#bd6a05"
+      pos={"fixed"}
+      w={{
+        base: "100%",
+        md: "100%",
+        lg: "100%"
+      }}
+      zIndex={999}
+    >
       <Flex
-        m={"0 auto"}
+        m={{
+          base: 0,
+          md: "0 auto",
+          lg: "0 auto"
+        }}
         align={"center"}
-        justify={"space-between"}
+        justify={{
+          base: "space-between",
+          md: "space-between",
+          lg: "space-between"
+        }}
         padding={"1rem"}
-        w={"25%"}
       >
         <Link
           href="/"

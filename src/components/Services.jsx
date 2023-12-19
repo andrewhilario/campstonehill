@@ -9,7 +9,7 @@ import Housekeeping from "../assets/svgs/housekeeping.svg";
 
 export default function Services() {
   return (
-    <Box w="100%" marginTop={"4rem"}>
+    <Box w="100%" marginTop={"4rem"} mx={"auto"}>
       <Text
         textAlign={"center"}
         fontFamily={"Montserrat Variable"}
@@ -18,8 +18,31 @@ export default function Services() {
       >
         OUR SERVICES
       </Text>
-      <Flex justify={"space-between"} w={"53%"} m={"0 auto"}>
-        <Box w={"33%"}>
+      <Flex
+        justify={{
+          base: "center",
+          md: "space-between",
+          lg: "space-between"
+        }}
+        w={{
+          base: "100%",
+          md: "80%",
+          lg: "53%"
+        }}
+        m={"0"}
+        direction={{
+          base: "column",
+          md: "row",
+          lg: "row"
+        }}
+      >
+        <Box
+          w={{
+            base: "100%",
+            md: "90%",
+            lg: "33%"
+          }}
+        >
           <Image src={Dining} alt="dining" w={"50px"} h={"50px"} m={"0 auto"} />
           <Text
             textAlign={"center"}
@@ -41,7 +64,13 @@ export default function Services() {
           </Text>
         </Box>
 
-        <Box w={"33%"}>
+        <Box
+          w={{
+            base: "100%",
+            md: "90%",
+            lg: "33%"
+          }}
+        >
           <Image src={Garden} alt="dining" w={"50px"} h={"50px"} m={"0 auto"} />
           <Text
             textAlign={"center"}
@@ -61,8 +90,20 @@ export default function Services() {
             and privacy nooks dotted around the grounds
           </Text>
         </Box>
-        <Box w={"33%"}>
-          <Image src={Pool} alt="dining" w={"50px"} h={"50px"} m={"0 auto"} />
+        <Box
+          w={{
+            base: "100%",
+            md: "90%",
+            lg: "33%"
+          }}
+        >
+          <Image
+            src={Pool}
+            alt="dining"
+            w={"50px"}
+            h={"50px"}
+            m={"1rem auto"}
+          />
           <Text
             textAlign={"center"}
             fontFamily={"Montserrat Variable"}
@@ -84,13 +125,38 @@ export default function Services() {
       </Flex>
       <Flex
         align={"center"}
-        justify={"space-between"}
-        w={"53%"}
+        justify={{
+          base: "center",
+          md: "space-between",
+          lg: "space-between"
+        }}
+        w={{
+          base: "100%",
+          md: "80%",
+          lg: "53%"
+        }}
         m={"0 auto"}
         marginTop={"1rem"}
+        direction={{
+          base: "column",
+          md: "row",
+          lg: "row"
+        }}
       >
-        <Box w={"33%"}>
-          <Image src={Wifi} alt="dining" w={"50px"} h={"50px"} m={"0 auto"} />
+        <Box
+          w={{
+            base: "100%",
+            md: "90%",
+            lg: "33%"
+          }}
+        >
+          <Image
+            src={Wifi}
+            alt="dining"
+            w={"50px"}
+            h={"50px"}
+            m={"1rem auto"}
+          />
           <Text
             textAlign={"center"}
             fontFamily={"Montserrat Variable"}
@@ -110,11 +176,22 @@ export default function Services() {
           </Text>
         </Box>
 
-        <Box w={"33%"}>
+        <Box
+          w={{
+            base: "100%",
+            md: "90%",
+            lg: "33%"
+          }}
+        >
           <Text
             textAlign={"center"}
             fontFamily={"Montserrat Variable"}
             fontSize={"1.2rem"}
+            marginTop={{
+              base: "1rem",
+              md: "0",
+              lg: "0"
+            }}
           >
             Exclusive Hotel Hire
           </Text>
@@ -132,18 +209,29 @@ export default function Services() {
             needs and meals prepared especially for your group.
           </Text>
         </Box>
-        <Box w={"33%"}>
+        <Box
+          w={{
+            base: "100%",
+            md: "90%",
+            lg: "33%"
+          }}
+        >
           <Image
             src={Housekeeping}
             alt="dining"
             w={"50px"}
             h={"50px"}
-            m={"0 auto"}
+            m={"1rem auto"}
           />
           <Text
             textAlign={"center"}
             fontFamily={"Montserrat Variable"}
             fontSize={"1.2rem"}
+            marginTop={{
+              base: "1rem",
+              md: "0",
+              lg: "0"
+            }}
           >
             Daily Housekeeping
           </Text>
@@ -162,22 +250,42 @@ export default function Services() {
       <Flex
         justify={"center"}
         align={"center"}
-        w={"53%"}
+        w={{
+          base: "100%",
+          md: "80%",
+          lg: "53%"
+        }}
         my={"2rem"}
         mx={"auto"}
         direction={"column"}
       >
-        <Box w={"50%"} m={"0 auto"}>
+        <Box
+          w={{
+            base: "90%",
+            md: "70%",
+            lg: "50%"
+          }}
+          m={"1rem auto"}
+        >
           <Text
             textAlign={"center"}
             fontFamily={"Montserrat Variable"}
             fontSize={"1.2rem"}
+            marginTop={{
+              base: "1rem",
+              md: "0",
+              lg: "0"
+            }}
           >
             Events
           </Text>
           <Text
-            width={"80%"}
-            m={"0 auto"}
+            width={{
+              base: "100%",
+              md: "80%",
+              lg: "80%"
+            }}
+            m={"1rem auto"}
             textAlign={"center"}
             fontFamily={"Montserrat Variable"}
             fontWeight={"light"}
@@ -190,7 +298,7 @@ export default function Services() {
           </Text>
         </Box>
         <Button
-          bg="#A1A09E"
+          bg="#e37f06"
           color={"white"}
           padding={"1rem"}
           fontFamily={"Montserrat Variable"}
@@ -200,7 +308,7 @@ export default function Services() {
             background: "white",
             color: "black",
             textDecoration: "none",
-            boxShadow: "inset 0 0 0 1px black" // Set the boxShadow property for the border
+            boxShadow: "inset 0 0 0 1px #e37f06" // Set the boxShadow property for the border
           }}
           marginTop={"2rem"}
           mx={"auto"}
