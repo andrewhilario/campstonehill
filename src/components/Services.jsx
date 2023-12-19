@@ -60,9 +60,9 @@ export default function Services() {
             fontFamily={"Montserrat Variable"}
             fontWeight={"light"}
           >
-            We offer complimentary breakfast. We are also open for lunch,
-            merienda and dinner, exculsively for our checked-in guests, at
-            Ilulli Restaurant
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
+            expedita enim, veniam molestias quas itaque inventore consectetur
+            nesciunt accusantium iste quos non odit? Reiciendis, nam.
           </Text>
         </Box>
 
@@ -88,8 +88,8 @@ export default function Services() {
             fontFamily={"Montserrat Variable"}
             fontWeight={"light"}
           >
-            Our guests have access to our lakeview gardens, private beachfront
-            and privacy nooks dotted around the grounds
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus voluptate vero sed nulla inventore saepe.
           </Text>
         </Box>
         <Box
@@ -120,8 +120,8 @@ export default function Services() {
             fontFamily={"Montserrat Variable"}
             fontWeight={"light"}
           >
-            Take a dip in our pool that visually extends into the depths of the
-            lake
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+            eos.
           </Text>
         </Box>
       </Flex>
@@ -173,8 +173,8 @@ export default function Services() {
             fontFamily={"Montserrat Variable"}
             fontWeight={"light"}
           >
-            Enjoy complimentary fiber internet access in all guest rooms and
-            public spaces.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+            doloribus placeat, fuga perferendis molestiae nam.
           </Text>
         </Box>
 
@@ -204,11 +204,10 @@ export default function Services() {
             fontFamily={"Montserrat Variable"}
             fontWeight={"light"}
           >
-            Open for exclusive hire as a luxury villa retreat, guests can enjoy
-            over 1,500 sqm of living space, along with an exclusive dining
-            experience at Ilulli Restaurant, and full private use of the hotel's
-            facilities. You will have your own house staff to cater to your
-            needs and meals prepared especially for your group.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+            incidunt ipsa, itaque cupiditate ducimus provident labore, quibusdam
+            aperiam expedita natus pariatur commodi nisi quaerat, nulla illum!
+            Illum odio aspernatur deserunt.
           </Text>
         </Box>
         <Box
@@ -244,7 +243,8 @@ export default function Services() {
             fontFamily={"Montserrat Variable"}
             fontWeight={"light"}
           >
-            Have a comfortable stay in a crisp and clean environment
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima,
+            amet?
           </Text>
         </Box>
       </Flex>
@@ -292,11 +292,10 @@ export default function Services() {
             fontFamily={"Montserrat Variable"}
             fontWeight={"light"}
           >
-            We can hold private celebrations, such as weddings, birthdays, and
-            anniversaries. We also accept private group dining and corporate
-            bookings for executive retreats, team building, staff parties,
-            product launches, and conferences/seminars. Get in touch for more
-            details.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repellendus illo animi cupiditate, adipisci eaque ex ad distinctio
+            qui culpa et doloremque consequatur non corrupti ratione saepe
+            mollitia vero, placeat nam. details.
           </Text>
         </Box>
         <Button

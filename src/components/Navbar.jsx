@@ -16,6 +16,11 @@ const Navbar = () => {
       zIndex={999}
     >
       <Flex
+        w={{
+          base: "100%",
+          md: "80%",
+          lg: "25%"
+        }}
         m={{
           base: 0,
           md: "0 auto",

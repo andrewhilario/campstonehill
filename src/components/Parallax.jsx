@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Box, Button, Image, Text } from "@chakra-ui/react";
 import backgroundImage from "../assets/images/The Villa at Nuuk Taal.webp";
+import ParallaxImage from "../assets/images/paralllax.jpg";
 
 const ParallaxComponent = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -34,7 +35,7 @@ const ParallaxComponent = () => {
       position={"relative"}
     >
       <Image
-        src="https://static.wixstatic.com/media/b07087_ce88951a76524572b63893c4f26d2dc5~mv2.jpg/v1/crop/x_0,y_242,w_3000,h_1515/fill/w_978,h_494,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/The%20Villa%20at%20Nuuk%20Taal.jpg"
+        src={ParallaxImage}
         w={{
           base: "100%",
           md: "100%",
@@ -102,8 +103,9 @@ const ParallaxComponent = () => {
             lg: "16px"
           }}
         >
-          Nuuk is set within an idyllic 4-hectare lakeside country estate in
-          Laurel, Batangas, with 130 meters of private shoreline.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
+          eu lorem et ultricies. In porta lorem at dui semper porttitor. Nullam
+          quis cursus dui.
         </Text>
 
         <Button

@@ -52,10 +52,10 @@ export default function ThingsToDo() {
             fontFamily={"Montserrat Variable"}
             fontWeight={"light"}
           >
-            Discover the natural beauty of our surroundings by taking a walk or
-            wading along our shores. Many birds like herons, egrets, and
-            kingfishers (among many others) frequent our beach to catch fish.
-            Your little ones can do the same with our kiddie fishing.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
+            consequuntur dicta, at quas laudantium iusto dolorum placeat
+            corporis earum commodi laboriosam debitis repellat aut! Ipsa cumque
+            voluptatum ex sed id.
           </Text>
         </Box>
         <Box>
@@ -75,10 +75,10 @@ export default function ThingsToDo() {
             fontFamily={"Montserrat Variable"}
             fontWeight={"light"}
           >
-            Take a dip in our infinity pool, relax in one of our nooks nestled
-            in the gardens or the beach, play some cards at our lobby lounge,
-            enjoy a drink on our viewing deck whilst taking in the lake views.
-            We also have a Ping Pong Table and a Dartboard for some great fun.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+            ratione, doloribus molestias excepturi sapiente sit ut ad alias
+            laborum voluptates reprehenderit dolorum. Provident totam illum quos
+            quidem eligendi illo omnis!
           </Text>
         </Box>
       </Flex>
@@ -114,12 +114,10 @@ export default function ThingsToDo() {
             color={"white"}
             fontWeight={"light"}
           >
-            Taal Lake is well known for its beauty, mysteriousness and rich
-            history. The breathtaking backdrop of mountains, calm water and the
-            volcano at Taal Lake, on the Philippine island of Luzon, makes it
-            one of the country's most popular tourist destinations. Located just
-            thirty miles from Manila, Taal Lake fills the caldera of a massive
-            prehistoric volcano with a fascinating geological history.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+            eveniet ex consequatur dolorum architecto magnam aspernatur ad
+            officiis fuga reiciendis at neque in earum tempora beatae ratione,
+            quaerat dignissimos sunt praesentium rem eius, consequuntur vero.
           </Text>
         </Box>
         <Box>
@@ -139,9 +137,10 @@ export default function ThingsToDo() {
             fontFamily={"Montserrat Variable"}
             fontWeight={"light"}
           >
-            We are proud to be a family-friendly hotel. We have kiddie fishing,
-            board games, Smart TVs with Netflix, garden sports such as badminton
-            & volleyball, and a kiddie pool.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto natus
+            incidunt voluptates labore doloremque soluta, voluptas eius impedit
+            molestiae numquam, accusamus itaque accusantium adipisci fugiat,
+            consequuntur laudantium tempore perspiciatis reprehenderit.
           </Text>
         </Box>
         <Button
@@ -188,9 +187,9 @@ export default function ThingsToDo() {
             fontFamily={"Montserrat Variable"}
             fontWeight={"light"}
           >
-            Our hotel is only 25 minutes from the popular Tagaytay mountain
-            ridge, which offers a birds-eye panoramic view of Taal Lake and
-            Volcano.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+            tempora officiis animi deserunt illum molestiae nam sunt est
+            corrupti doloremque.
           </Text>
         </Box>
         <Box>
@@ -210,12 +209,10 @@ export default function ThingsToDo() {
             fontFamily={"Montserrat Variable"}
             fontWeight={"light"}
           >
-            Bring your mountain bikes and explore the roads surrounding the
-            lake. After the 2020 eruption, the views of the changed landscape of
-            Taal Volcano towards Agoncillo are worth the ride. Or if exploring
-            the lake is what you prefer, we have kayaking from our beachfront
-            and boat tours that can be arranged for you in collaboration with
-            the Taal Yacht Club!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
+            impedit similique voluptatum eos beatae eveniet odio at sequi rem
+            inventore, repellat odit dolorem hic adipisci ratione animi
+            incidunt, ducimus minus facere quo iste id provident?
           </Text>
         </Box>
       </Flex>

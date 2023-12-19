@@ -50,7 +50,11 @@ export default function Activities() {
         gap={"2.7rem"}
         flexDirection={"column"}
         position={"fixed"}
-        right={"25px"}
+        right={{
+          base: "10px",
+          md: "25px",
+          lg: "50px"
+        }}
         top={"45%"}
         zIndex={1}
       >
@@ -58,19 +62,44 @@ export default function Activities() {
           _hover={{
             textDecoration: "none"
           }}
+          href="https://www.facebook.com/campstonehill"
+          w={{
+            base: "24px",
+            md: "24px",
+            lg: "50px"
+          }}
+          h={{
+            base: "24px",
+            md: "24px",
+            lg: "50px"
+          }}
         >
           <FaFacebookF
             style={{
-              color: "black",
-              fontSize: "2rem"
+              width: "100%",
+              height: "100%",
+              color: "#e37f06"
             }}
           />
         </Link>
-        <Link _hover={{ textDecoration: "none" }}>
+        <Link
+          _hover={{ textDecoration: "none" }}
+          w={{
+            base: "24px",
+            md: "24px",
+            lg: "50px"
+          }}
+          h={{
+            base: "24px",
+            md: "24px",
+            lg: "50px"
+          }}
+        >
           <FaInstagram
             style={{
-              color: "black",
-              fontSize: "2rem"
+              color: "#e37f06",
+              width: "100%",
+              height: "100%"
             }}
           />
         </Link>
@@ -100,7 +129,15 @@ export default function Activities() {
           </Button> */}
         </Flex>
       </Box>
-      <Box w={"53%"} m={"0 auto"} marginBottom={"5rem"}>
+      <Box
+        w={{
+          base: "100%",
+          md: "80%",
+          lg: "53%"
+        }}
+        m={"0 auto"}
+        marginBottom={"5rem"}
+      >
         <ImageGallery
           items={images}
           showThumbnails
@@ -108,6 +145,7 @@ export default function Activities() {
           showFullscreenButton={false}
           showPlayButton={false}
           thumbnailWidth={"100%"}
+          thumbnailHeight={"500px"}
           renderRightNav={(onClick, disabled) => {
             return (
               <GoChevronRight

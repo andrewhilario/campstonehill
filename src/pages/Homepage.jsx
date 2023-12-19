@@ -22,6 +22,8 @@ import GoogleMaps from "../components/GoogleMaps";
 import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
 import Logo from "../assets/images/campstonehilllogo.webp";
+import HeaderImage from "../assets/images/header.jpg";
+import HotelImage from "../assets//images/hotel.jpg";
 
 export default function Homepage() {
   const [loading, setLoading] = React.useState(true);
@@ -188,10 +190,7 @@ export default function Homepage() {
           }}
           m={"0 auto"}
         >
-          <Image
-            src="https://static.wixstatic.com/media/b07087_cabee4ae08c741f492afe06c85a8e2f7~mv2.jpg/v1/fill/w_980,h_634,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/b07087_cabee4ae08c741f492afe06c85a8e2f7~mv2.jpg"
-            alt="homepage"
-          />
+          <Image src={HeaderImage} alt="homepage" />
         </Flex>
       </Box>
 
@@ -245,11 +244,10 @@ export default function Homepage() {
             }}
             mx={"auto"}
           >
-            Prior to its renovation into a charming boutique hotel, Nuuk served
-            as a secluded family vacation home for over thirty years. Still in
-            the family, we have a treasure trove of fond memories here, and are
-            now looking forward to helping you create wonderful memories of your
-            own.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro,
+            numquam! Deleniti dolore deserunt autem voluptates vero enim eum
+            consequatur minima illum fuga aliquam fugit sint expedita aperiam,
+            commodi at nobis?
           </Text>
           <Text
             fontFamily={"Montserrat Variable"}
@@ -268,9 +266,9 @@ export default function Homepage() {
             }}
             mx={"auto"}
           >
-            Housing a collection of European and Asian artefacts, alongside a
-            blend of modern Scandinavian furnishings and Filipiniana accents,
-            the property's interiors reflect its rich history and personality.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Voluptatem, quam natus. Sit, veniam accusantium! Ab alias laborum
+            sequi aliquid odio?
           </Text>
           <Text
             fontFamily={"Montserrat Variable"}
@@ -289,8 +287,8 @@ export default function Homepage() {
             }}
             mx={"auto"}
           >
-            Much like its namesake, the Nordic city of Nuuk, the resort is 'off
-            the beaten path' but definitely a place well worth discovering.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
+            aut dignissimos magnam accusamus doloribus numquam!
           </Text>
         </Flex>
         <ParallaxComponent />
@@ -307,7 +305,7 @@ export default function Homepage() {
             THE HOTEL
           </Text>
           <Image
-            src="https://static.wixstatic.com/media/b07087_ce88951a76524572b63893c4f26d2dc5~mv2.jpg/v1/crop/x_0,y_242,w_3000,h_1515/fill/w_978,h_494,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/The%20Villa%20at%20Nuuk%20Taal.jpg"
+            src={HotelImage}
             alt="hotel"
             w={{
               base: "100%",
@@ -333,9 +331,9 @@ export default function Homepage() {
             }}
             m={"0 auto"}
           >
-            With breath-taking views of Taal Lake and Volcano, Nuuk offers the
-            privacy of a luxurious holiday home combined with the perks of a
-            high-end hotel.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vel
+            totam debitis laudantium quibusdam. Hic atque commodi ut aperiam
+            quia!
           </Text>
           <Text
             textAlign={"center"}
@@ -365,11 +363,10 @@ export default function Homepage() {
             }}
             fontWeight={"light"}
           >
-            Archways clad in bricks and vintage hardwoods throughout the villa's
-            architecturally unique interior juxtapose rustic grandeur with a
-            cosy ambience. The Villa houses five of our eight luxury suites,
-            along with our Ilulli Restaurant's main indoor dining space and bar.
-            Villa Suites: Rooms 3 | 4 | 5 | 6 | 7
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+            a sapiente excepturi unde voluptatum cumque veniam beatae asperiores
+            officia sed, quasi, ipsum odio quidem, eveniet quo corrupti natus
+            exercitationem aperiam?.
           </Text>
           <Text
             textAlign={"center"}
@@ -399,9 +396,10 @@ export default function Homepage() {
             }}
             fontWeight={"light"}
           >
-            The Lakehus is a separate building housing Ilulli's al-fresco dining
-            space and three of our guest suites with a contemporary feel.
-            Lakehus Suites: Rooms 1 | 2 | 8
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
+            aperiam corporis error? Perspiciatis mollitia tempora eum, aliquid
+            at consectetur alias, hic, illum quos doloribus dolor. Lakehus
+            Suites: Rooms 1 | 2 | 8
           </Text>
           <Text
             textAlign={"center"}
@@ -425,28 +423,24 @@ export default function Homepage() {
               m={"0 auto"}
               textAlign={"center"}
               fontFamily={"Montserrat Variable"}
-              fontSize={{
-                base: "12px",
-                md: "16px",
-                lg: "18px"
-              }}
+              fontSize={"12px"}
             >
-              Eight (8) suites
+              Lorem ipsum dolor sit amet.
             </Text>
             <Text fontFamily={"Montserrat Variable"} fontSize={"12px"}>
-              Maximum capacity of 39 overnight guests
+              Lorem ipsum dolor sit amet.
             </Text>
             <Text fontFamily={"Montserrat Variable"} fontSize={"12px"}>
-              Fully air-conditioned
+              Lorem ipsum dolor sit amet.
             </Text>
             <Text fontFamily={"Montserrat Variable"} fontSize={"12px"}>
-              Wheel Chair Access
+              Lorem ipsum dolor sit amet.
             </Text>
             <Text fontFamily={"Montserrat Variable"} fontSize={"12px"}>
-              Infinity Swimming Pool
+              Lorem ipsum dolor sit amet.
             </Text>
             <Text fontFamily={"Montserrat Variable"} fontSize={"12px"}>
-              Beach access
+              Lorem ipsum dolor sit amet.
             </Text>
           </Flex>
         </Box>
