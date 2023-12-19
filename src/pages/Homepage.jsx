@@ -83,12 +83,12 @@ export default function Homepage() {
           w={{
             base: "24px",
             md: "24px",
-            lg: "50px"
+            lg: "30px"
           }}
           h={{
             base: "24px",
             md: "24px",
-            lg: "50px"
+            lg: "30px"
           }}
         >
           <FaFacebookF
@@ -103,13 +103,13 @@ export default function Homepage() {
           _hover={{ textDecoration: "none" }}
           w={{
             base: "24px",
-            md: "24px",
-            lg: "50px"
+            md: "18px",
+            lg: "30px"
           }}
           h={{
             base: "24px",
-            md: "24px",
-            lg: "50px"
+            md: "18px",
+            lg: "30px"
           }}
         >
           <FaInstagram
@@ -186,9 +186,10 @@ export default function Homepage() {
           w={{
             base: "100%",
             md: "65%",
-            lg: "53%"
+            lg: "100%"
           }}
           m={"0 auto"}
+          height={"70%"}
         >
           <Image src={HeaderImage} alt="homepage" />
         </Flex>
@@ -310,7 +311,7 @@ export default function Homepage() {
             w={{
               base: "100%",
               md: "90%",
-              lg: "53%"
+              lg: "100%"
             }}
             m="4rem auto"
           />

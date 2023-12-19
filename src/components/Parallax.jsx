@@ -30,7 +30,7 @@ const ParallaxComponent = () => {
       clipPath={{
         base: "inset(25% 0% 25% 0%)",
         md: "inset(10% 23% 10% 23%)",
-        lg: "inset(10% 23% 10% 23%)"
+        lg: "inset(10% 0% 10% 0%)"
       }}
       position={"relative"}
     >

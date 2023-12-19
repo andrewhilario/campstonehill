@@ -65,13 +65,13 @@ export default function Activities() {
           href="https://www.facebook.com/campstonehill"
           w={{
             base: "24px",
-            md: "24px",
-            lg: "50px"
+            md: "18px",
+            lg: "30px"
           }}
           h={{
             base: "24px",
-            md: "24px",
-            lg: "50px"
+            md: "18px",
+            lg: "30px"
           }}
         >
           <FaFacebookF
@@ -86,13 +86,13 @@ export default function Activities() {
           _hover={{ textDecoration: "none" }}
           w={{
             base: "24px",
-            md: "24px",
-            lg: "50px"
+            md: "18px",
+            lg: "30px"
           }}
           h={{
             base: "24px",
-            md: "24px",
-            lg: "50px"
+            md: "18px",
+            lg: "30px"
           }}
         >
           <FaInstagram
