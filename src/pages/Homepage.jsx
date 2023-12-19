@@ -72,7 +72,7 @@ export default function Homepage() {
         >
           <FaFacebookF
             style={{
-              color: "black",
+              color: "#e37f06",
               fontSize: "2rem"
             }}
           />
@@ -80,7 +80,7 @@ export default function Homepage() {
         <Link _hover={{ textDecoration: "none" }}>
           <FaInstagram
             style={{
-              color: "black",
+              color: "#e37f06",
               fontSize: "2rem"
             }}
           />
@@ -132,7 +132,7 @@ export default function Homepage() {
           <Heading
             fontFamily={"Montserrat Variable"}
             fontSize={"25px"}
-            color={"#242323"}
+            color={"#e37f06"}
             marginTop={"12rem"}
             textAlign={"center"}
           >

@@ -3,7 +3,7 @@ import React from "react";
 
 export default function NewsLetter() {
   return (
-    <Box bg={"teal.500"} mt={"2rem"}>
+    <Box bg={"#583102"} mt={"2rem"}>
       <Flex
         direction={"column"}
         align={"center"}
@@ -41,26 +41,26 @@ export default function NewsLetter() {
               name="email"
               w={"100%"}
               borderRadius={"0px"}
-              borderColor={"black"}
+              borderColor={"#e37f06"}
               _focus={{
-                borderColor: "black"
+                borderColor: "#e37f06"
               }}
               _hover={{
-                borderColor: "black"
+                borderColor: "#e37f06"
               }}
               _active={{
-                borderColor: "black"
+                borderColor: "#e37f06"
               }}
             />
             <Button
-              bg="#A1A09E"
+              bg="#fc8d07"
               color={"white"}
               padding={"1rem"}
               fontFamily={"Montserrat Variable"}
               borderRadius={"0px"}
               fontSize={"16px"}
               _hover={{
-                background: "black",
+                background: "#e37f06",
                 color: "white",
                 textDecoration: "none"
                 // Set the boxShadow property for the border

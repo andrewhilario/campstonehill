@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <Box bg="#252322" p={"1rem"}>
+    <Box bg="#bd6a05" p={"1rem"}>
       <Flex
         align={"center"}
         justify={"center"}
@@ -11,18 +11,18 @@ export default function Footer() {
         m={"0 auto"}
         gap={"1rem"}
       >
-        <Text color={"#ABABA9"} fontFamily={"Montserrat Variable"}>
+        <Text color={"#fff"} fontFamily={"Montserrat Variable"}>
           booking@campstonehill.ph
         </Text>
-        <Text color={"#ABABA9"}>|</Text>
-        <Text color={"#ABABA9"} fontFamily={"Montserrat Variable"}>
+        <Text color={"#fff"}>|</Text>
+        <Text color={"#fff"} fontFamily={"Montserrat Variable"}>
           Haligyunan corner PPC Roads, Sitio Rumaguit, Brgy San Miguel, Baras,
           Philippines
         </Text>
-        <Text color={"#ABABA9"}>|</Text>
+        <Text color={"#fff"}>|</Text>
         <Flex align={"center"} justify={"center"} gap={"1rem"}>
           <Text
-            color={"#ABABA9"}
+            color={"#fff"}
             fontFamily={"Montserrat Variable"}
             textDecoration={"underline"}
           >

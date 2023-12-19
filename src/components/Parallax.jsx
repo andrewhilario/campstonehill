@@ -17,7 +17,7 @@ const ParallaxComponent = () => {
     };
   }, []);
 
-  const parallaxFraction = -0.02; // Adjust the fraction for the scrolling effect
+  const parallaxFraction = 0; // Adjust the fraction for the scrolling effect
   const parallaxOffset = scrollY * parallaxFraction;
 
   return (
@@ -74,10 +74,10 @@ const ParallaxComponent = () => {
           borderRadius={"0px"}
           fontSize={"14px"}
           _hover={{
-            background: "black",
+            background: "#e37f06",
             color: "white",
             textDecoration: "none",
-            boxShadow: "inset 0 0 0 1px black" // Set the boxShadow property for the border
+            boxShadow: "inset 0 0 0 1px #e37f06" // Set the boxShadow property for the border
           }}
         >
           <Text>Continue Reading...</Text>
