@@ -150,21 +150,6 @@ const Navbar = () => {
           Services
         </Link> */}
         <Link
-          href="/activities"
-          color={"white"}
-          textDecoration={"none"}
-          textTransform={"uppercase"}
-          fontSize={"14px"}
-          padding={"0.8rem"}
-          fontFamily={"Montserrat Variable"}
-          _hover={{
-            color: "#ABABA9",
-            textDecoration: "none"
-          }}
-        >
-          Activities
-        </Link>
-        <Link
           href="/rooms"
           color={"white"}
           textDecoration={"none"}
@@ -179,6 +164,22 @@ const Navbar = () => {
         >
           Rooms
         </Link>
+        <Link
+          href="/activities"
+          color={"white"}
+          textDecoration={"none"}
+          textTransform={"uppercase"}
+          fontSize={"14px"}
+          padding={"0.8rem"}
+          fontFamily={"Montserrat Variable"}
+          _hover={{
+            color: "#ABABA9",
+            textDecoration: "none"
+          }}
+        >
+          Activities
+        </Link>
+
         <Link
           href="/events"
           color={"white"}
