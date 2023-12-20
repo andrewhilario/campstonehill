@@ -211,7 +211,11 @@ export default function Homepage() {
           }}
           mx={"auto"}
           marginTop={"5rem"}
-          marginBottom={"8rem"}
+          marginBottom={{
+            base: "0rem",
+            md: "5rem",
+            lg: "8rem"
+          }}
           id="about"
           direction={"column"}
         >
@@ -301,7 +305,11 @@ export default function Homepage() {
             fontSize={"25px"}
             color={"#242323"}
             textAlign={"center"}
-            marginTop={"10rem"}
+            marginTop={{
+              base: "0",
+              md: "5rem",
+              lg: "10rem"
+            }}
           >
             THE HOTEL
           </Text>

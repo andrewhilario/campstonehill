@@ -28,7 +28,7 @@ const ParallaxComponent = () => {
       alignItems="center"
       justifyContent="center"
       clipPath={{
-        base: "inset(25% 0% 25% 0%)",
+        base: "inset(8% 0% 8% 0%)",
         md: "inset(10% 23% 10% 23%)",
         lg: "inset(10% 0% 10% 0%)"
       }}
