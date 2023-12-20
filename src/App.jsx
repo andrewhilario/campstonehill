@@ -9,11 +9,13 @@ import Router from "./routes/Router";
 import "./index.css";
 // Supports weights 100-900
 import "@fontsource-variable/montserrat";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
       <Router />
+      <SpeedInsights />
     </ChakraProvider>
   );
 }

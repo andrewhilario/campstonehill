@@ -16,6 +16,7 @@
     "@fontsource-variable/montserrat": "^5.0.17",
     "@fontsource/plus-jakarta-sans": "^5.0.18",
     "@react-google-maps/api": "^2.19.2",
+    "@vercel/speed-insights": "^1.0.2",
     "animejs": "^3.2.2",
     "framer-motion": "^10.16.16",
     "jquery": "^3.7.1",
