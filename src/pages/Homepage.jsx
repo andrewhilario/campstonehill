@@ -191,7 +191,7 @@ export default function Homepage() {
           m={"0 auto"}
           height={"70%"}
         >
-          <Image src={HeaderImage} alt="homepage" />
+          <Image src={HeaderImage} alt="homepage" w={"100%"} />
         </Flex>
       </Box>
 
